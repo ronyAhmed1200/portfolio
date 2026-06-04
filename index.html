@@ -38,18 +38,26 @@
     />
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/fontawesome-all.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/custom-styles.css" rel="stylesheet" />
 
     <!-- Favicon  -->
     <link rel="icon" href="images/favicon.png" />
   </head>
+
   <body data-spy="scroll" data-target=".fixed-top">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
       <div class="container">
         <!-- Image Logo -->
         <a class="navbar-brand logo-image" href="index.html"
-          ><img src="" alt="Rony"
+          ><img src="images/logo.png" alt="Rony"
         /></a>
 
         <!-- Text Logo - Use this if you don't have a graphic logo -->
@@ -77,31 +85,11 @@
               <a class="nav-link page-scroll" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#services">Services</a>
+              <a class="nav-link page-scroll" href="#skills">Skills</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="dropdown01"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                >Drop</a
-              >
-              <div class="dropdown-menu" aria-labelledby="dropdown01">
-                <a class="dropdown-item page-scroll" href="project.html"
-                  >Project Details</a
-                >
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item page-scroll" href="terms.html"
-                  >Terms Conditions</a
-                >
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item page-scroll" href="privacy.html"
-                  >Privacy Policy</a
-                >
-              </div>
+
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link page-scroll" href="#contact">Contact</a>
@@ -109,15 +97,15 @@
           </ul>
           <span class="nav-item social-icons">
             <span class="fa-stack">
-              <a href="#your-link">
+              <a href="https://wa.me/8801641349168">
                 <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                <i class="fab fa-whatsapp fa-stack-1x"></i>
               </a>
             </span>
             <span class="fa-stack">
-              <a href="#your-link">
+              <a href="https://www.linkedin.com/in/rony-ipe">
                 <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x"></i>
+                <i class="fab fa-linkedin fa-stack-1x"></i>
               </a>
             </span>
           </span>
@@ -129,20 +117,22 @@
     <!-- end of navbar -->
     <!-- end of navigation -->
 
-    <!-- Header -->
-    <header id="header" class="header">
+    <!--  Header -->
+    <header id="header" class="header vh-100">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
             <div class="text-container">
               <h1 class="h1-large">
-                Business Analyst | Data-Driven Supply Chain Professional
+                Data Analyst | Supply Chain & Demand Planning
               </h1>
               <p>
                 I turn data into actionable insights to optimize supply chains,
                 improve planning accuracy, and drive operational efficiency.
               </p>
-              <a class="btn-solid-lg page-scroll" href="#about">See Projects</a>
+              <a class="btn-solid-lg page-scroll" href="#projects"
+                >See Projects</a
+              >
               <a class="btn-outline-lg page-scroll" href="#contact"
                 ><i class="fas fa-user"></i>Contact Me</a
               >
@@ -161,87 +151,45 @@
     <!-- About-->
     <div id="about" class="basic-1 bg-gray">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
             <div class="text-container first">
-              <h2>
-                Hi I'm Moshiur Rahman Rony,
+              <h2 class="text-black-50">
+                Hi, I'm <span class="text-primary">Moshiur Rahman Rony,</span>
                 <!-- <i class="fa-solid fa-hand"></i> -->
               </h2>
               <p>
-                I’m a data-driven supply chain professional with over 2 years of
-                experience in demand planning, analytics, and process
-                optimization within manufacturing environments. My work focuses
-                on using data to improve decision-making, streamline operations,
-                and enhance production efficiency. I have hands-on experience
-                with SQL, Python, Tableau, and Excel to build dashboards,
-                forecast demand, and track key performance indicators. In my
-                previous roles, I’ve reduced production lead times by 22% and
-                increased output by over 8% by identifying bottlenecks and
-                optimizing planning processes. I enjoy working at the
-                intersection of data and operations, collaborating with
-                cross-functional teams to solve real business problems and
-                deliver measurable impact.
+                I’m a <span class="strong-text">data-driven</span> supply chain
+                professional with over
+                <span class="strong-text">2 years</span> of experience in
+                <span class="strong-text">demand planning</span>,
+                <span class="strong-text">analytics</span>, and
+                <span class="strong-text">process optimization</span> within
+                manufacturing environments. My work focuses on using data to
+                improve decision-making,
+                <span class="strong-text">streamline operations</span>, and
+                enhance production <span class="strong-text">efficiency</span>.
+                I have hands-on experience with
+                <span class="skill-highlight">SQL</span>,
+                <span class="skill-highlight">Python</span>,
+                <span class="skill-highlight">Tableau</span>, and
+                <span class="skill-highlight">Excel</span>
+                to build dashboards, forecast demand, and track key performance
+                indicators. In my previous roles, I’ve reduced production lead
+                times by <span class="strong-text">22%</span> and increased
+                output by over <span class="strong-text">8%</span> by
+                identifying bottlenecks and optimizing planning processes. I
+                enjoy working at the intersection of data and operations,
+                collaborating with
+                <span class="strong-text">cross-functional</span> teams to solve
+                real business problems and deliver
+                <span class="strong-text">measurable impact</span>.
               </p>
             </div>
             <!-- end of text-container -->
           </div>
           <!-- end of col -->
-          <div class="col-lg-4">
-            <div class="text-container second">
-              <div class="time">Jun 2025 – Nov 2025</div>
-              <h6>Executive (Planning)</h6>
-              <ul>
-                <li>
-                  Supported demand planning and MRP execution to ensure smooth
-                  production flow
-                </li>
-                <li>
-                  Increased in-house sourcing rate through improved supplier
-                  coordination
-                </li>
-                <li>
-                  Reduced material shortages by improving planning accuracy
-                </li>
-                <li>
-                  Analyzed production variances to improve schedule adherence
-                </li>
-              </ul>
-              <div class="time">Sep 2024 – May 2025</div>
-              <h6>Officer (Planning)</h6>
-              <ul>
-                <li>
-                  Built KPI dashboards to track production, lead time, and
-                  materials
-                </li>
-                <li>Increased production output through bottleneck analysis</li>
-                <li>Reduced lead time through improved planning</li>
-                <li>Coordinated across teams to align demand and supply</li>
-              </ul>
-            </div>
-            <!-- end of text-container -->
-          </div>
-          <!-- end of col -->
-          <div class="col-lg-4">
-            <div class="text-container third">
-              <div class="time">Aug 2023 – Aug 2024</div>
-              <h6>Assistant Officer (Process Excellence)</h6>
-              <ul>
-                <li>
-                  Reduced machine downtime using Lean methodologies Conducted
-                  root cause analysis (5 Why, Fishbone)
-                </li>
-                <li>
-                  Improved workflow efficiency through cycle time analysis
-                </li>
-                <li>Gained hands-on experience with ERP systems</li>
-              </ul>
-              <!-- <div class="time">2016 - 2017</div>
-              <h6>Junior Web Designer</h6>
-              <p>Junior web designer for small web agency</p> -->
-            </div>
-            <!-- end of text-container -->
-          </div>
+
           <!-- end of col -->
         </div>
         <!-- end of row -->
@@ -252,127 +200,79 @@
     <!-- end of about -->
 
     <!-- Services -->
-    <div id="services" class="basic-2">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h2 class="h2-heading">Offered services</h2>
-            <p class="p-heading">
-              Web design and development have been my bread and butter for more
-              than 5 years. During that time I've discovered that I can help
-              startups and companies with the following services
-            </p>
-          </div>
-          <!-- end of col -->
-        </div>
-        <!-- end of row -->
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="text-box">
-              <i class="far fa-gem"></i>
-              <h4>DESIGN</h4>
-              <p>
-                Successful online projects start with good design. It
-                establishes a solid foundation for future development and allows
-                for long term growth
-              </p>
-            </div>
-            <!-- end of text-box -->
-          </div>
-          <!-- end of col -->
-          <div class="col-lg-4">
-            <div class="text-box">
-              <i class="fas fa-code"></i>
-              <h4>DEVELOPMENT</h4>
-              <p>
-                I can code my own designs or even use the customer's design as
-                base. My focus is to generate clean code that's well structured
-                for reliability
-              </p>
-            </div>
-            <!-- end of text-box -->
-          </div>
-          <!-- end of col -->
-          <div class="col-lg-4">
-            <div class="text-box">
-              <i class="fas fa-tv"></i>
-              <h4>BASIC SEO</h4>
-              <p>
-                i can setup your project to use basic SEO principles which will
-                push your project to the first page on search engines and save
-                you ads money
-              </p>
-            </div>
-            <!-- end of text-box -->
-          </div>
-          <!-- end of col -->
-        </div>
-        <!-- end of row -->
-      </div>
-      <!-- end of container -->
-    </div>
+
     <!-- end of basic-2 -->
     <!-- end of services -->
 
     <!-- Details -->
-    <div class="split">
-      <div class="area-1"></div>
-      <!-- end of area-1 on same line and no space between comments to eliminate margin white space -->
-      <div class="area-2 bg-gray">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <!-- Text Container -->
-              <div class="text-container">
-                <h2>Why Work With Me</h2>
-                <p>
-                  I am a great communicator and love to invest the necessary
-                  time to understand the customer's problem very well
-                </p>
-                <h5>DESIGN TOOLS</h5>
-                <p>
-                  My favorite design tools are Photoshop and Illustrator but I
-                  can create designs in Figma, Sketch and Adobe XD too
-                </p>
-                <h5>DEVELOPMENT SKILLS</h5>
-                <p>
-                  I am familiar and work on a daily basis with HTML, CSS,
-                  JavaScript, Bootstrap and other modern frameworks
-                </p>
 
-                <div class="icons-container">
-                  <img
-                    src="images/details-icon-photoshop.png"
-                    alt="alternative"
-                  />
-                  <img
-                    src="images/details-icon-illustrator.png"
-                    alt="alternative"
-                  />
-                  <img src="images/details-icon-html.png" alt="alternative" />
-                  <img src="images/details-icon-css.png" alt="alternative" />
-                  <img
-                    src="images/details-icon-bootstrap.png"
-                    alt="alternative"
-                  />
-                  <img
-                    src="images/details-icon-javascript.png"
-                    alt="alternative"
-                  />
-                </div>
-                <!-- end of icons-container -->
-              </div>
-              <!-- end of text-container -->
-              <!-- end of text container -->
-            </div>
-            <!-- end of col -->
-          </div>
-          <!-- end of row -->
+    <!-- Skills Section Start -->
+    <section id="skills">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>Skills & Expertise</h2>
+          <p>Supply Chain Management & Data Analytics</p>
         </div>
-        <!-- end of container -->
+
+        <div class="row g-4">
+          <!-- SCM Skills -->
+          <div class="col-lg-6">
+            <div class="card scm-card h-100">
+              <div class="card-body p-4">
+                <h4 class="scm-title mb-4 text-primary">
+                  <i class="bi bi-box-seam mr-2"></i>
+                  Core Skills
+                </h4>
+
+                <div>
+                  <span class="skill-badge scm-badge">Demand Forecasting</span>
+                  <span class="skill-badge scm-badge">MRP</span>
+                  <span class="skill-badge scm-badge"
+                    >Production Scheduling</span
+                  >
+                  <span class="skill-badge scm-badge"
+                    >Inventory Optimization</span
+                  >
+                  <span class="skill-badge scm-badge">JIT</span>
+                  <span class="skill-badge scm-badge">Capacity Planning</span>
+                  <span class="skill-badge scm-badge">Bottleneck Analysis</span>
+                  <span class="skill-badge scm-badge"
+                    >Cross-functional Coordination</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Data Analyst Skills -->
+          <div class="col-lg-6">
+            <div class="card data-card h-100">
+              <div class="card-body p-4">
+                <h4 class="data-title mb-4 text-success">
+                  <i class="bi bi-graph-up-arrow mr-2"></i>
+                  Tools & Analytics
+                </h4>
+
+                <div>
+                  <span class="skill-badge data-badge">Excel</span>
+                  <span class="skill-badge data-badge">PivotTables</span>
+                  <span class="skill-badge data-badge">VLOOKUP</span>
+                  <span class="skill-badge data-badge">KPI Dashboards</span>
+                  <span class="skill-badge data-badge">SQL</span>
+                  <span class="skill-badge data-badge">Tableau</span>
+                  <span class="skill-badge data-badge">Python</span>
+                  <span class="skill-badge data-badge">Pandas</span>
+                  <span class="skill-badge data-badge">Matplotlib</span>
+                  <span class="skill-badge data-badge"
+                    >Time Series Forecasting</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- end of area-2 -->
-    </div>
+    </section>
     <!-- end of split -->
     <!-- end of details -->
 
@@ -381,96 +281,128 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h2 class="h2-heading">Delivered projects</h2>
+            <h2 class="h2-heading">projects</h2>
             <p class="p-heading">
-              Listed below are some of the most representative projects I've
-              worked on. They range from basic web design for presentation sites
-              to advanced web development for online shops
+              Listed below are some of the most representative projects that
+              I've worked on. They are the projects of
+              <span class="text-black-50 font-weight-bold"
+                >inventory management, inventory analysis, demand forecasting,
+                product analysis of business.</span
+              >
             </p>
           </div>
           <!-- end of col -->
         </div>
         <!-- end of row -->
         <div class="row">
+          <!-- project 1 starts -->
           <div class="col-lg-12">
             <div class="text-container">
               <div class="image-container">
-                <a href="project.html">
+                <a href="project1.html">
                   <img
                     class="img-fluid"
-                    src="images/project-1.jpg"
-                    alt="alternative"
+                    src="images/project1.png"
+                    alt="Inventory Management Dashboard"
                   />
                 </a>
               </div>
               <!-- end of image-container -->
-              <p>
-                <strong>For:</strong> Jumbotron, <strong>Project:</strong> web
-                design for their corporate websites and landing pages for
-                marketing campaigns
-                <a class="blue" href="project.html">details</a>
-              </p>
-            </div>
-            <!-- end of text-container -->
-            <div class="text-container">
-              <div class="image-container">
-                <a href="project.html">
-                  <img
-                    class="img-fluid"
-                    src="images/project-2.jpg"
-                    alt="alternative"
-                  />
-                </a>
+              <div class="contents">
+                <a href="project1.html" class="text-decoration-none">
+                  <h5 class="fw-bold text-primary">
+                    Inventory Management Dashboard
+                  </h5></a
+                >
+
+                <h6 class="text-black-50 mb-2">
+                  Tableau, Excel | Supply Chain Analytics
+                </h6>
+
+                <p class="">
+                  Built an interactive Inventory Management Dashboard using
+                  Tableau to monitor KPIs, analyze inventory wastage, evaluate
+                  supplier lead times, and track inventory investment insights
+                  through advanced data visualization techniques.
+                  <a class="blue" href="project1.html">details</a>
+                </p>
               </div>
-              <!-- end of image-container -->
-              <p>
-                <strong>For:</strong> Carsrepo,
-                <strong>Project:</strong> designed and developed modern platform
-                for purchasing second hand cars online
-                <a class="blue" href="project.html">details</a>
-              </p>
-            </div>
-            <!-- end of text-container -->
-            <div class="text-container">
-              <div class="image-container">
-                <a href="project.html">
-                  <img
-                    class="img-fluid"
-                    src="images/project-3.jpg"
-                    alt="alternative"
-                  />
-                </a>
-              </div>
-              <!-- end of image-container -->
-              <p>
-                <strong>For:</strong> Truevideo,
-                <strong>Project:</strong> created a custom video editing and
-                upload web app for this awesome team
-                <a class="blue" href="project.html">details</a>
-              </p>
-            </div>
-            <!-- end of text-container -->
-            <div class="text-container">
-              <div class="image-container">
-                <a href="project.html">
-                  <img
-                    class="img-fluid"
-                    src="images/project-4.jpg"
-                    alt="alternative"
-                  />
-                </a>
-              </div>
-              <!-- end of image-container -->
-              <p>
-                <strong>For:</strong> Evolosim,
-                <strong>Project:</strong> complete redesign of their corporate
-                website and platform update for their online shop
-                <a class="blue" href="project.html">details</a>
-              </p>
             </div>
             <!-- end of text-container -->
           </div>
-          <!-- end of col -->
+          <!-- project 1 end -->
+          <!-- project 2 starts -->
+          <div class="col-lg-12">
+            <div class="text-container">
+              <div class="image-container">
+                <a href="project2.html">
+                  <img
+                    class="img-fluid"
+                    src="images/project2/actual_vs_forecast.png"
+                    alt="Inventory Management Dashboard"
+                  />
+                </a>
+              </div>
+              <!-- end of image-container -->
+              <div class="contents">
+                <a href="project2.html" class="text-decoration-none">
+                  <h5 class="fw-bold text-primary">
+                    Demand Forecasting of Sales
+                  </h5></a
+                >
+
+                <h6 class="text-black-50 mb-2">
+                  SQL, Python | Demand Forecasting Project
+                </h6>
+
+                <p class="">
+                  Developed an ML-based demand forecasting system using 2 years
+                  of sales data, improving forecast accuracy to 98% WAPE for
+                  better inventory optimization and stockout reduction.
+                  <a class="blue" href="project2.html">details</a>
+                </p>
+              </div>
+            </div>
+            <!-- end of text-container -->
+          </div>
+          <!-- project 2 end -->
+          <!-- project 3 starts -->
+          <div class="col-lg-12">
+            <div class="text-container">
+              <div class="image-container">
+                <a href="project3.html">
+                  <img
+                    class="img-fluid"
+                    src="images/project3/abc-analysis_chart1.png"
+                    alt="Inventory Management Dashboard"
+                  />
+                </a>
+              </div>
+              <!-- end of image-container -->
+              <div class="contents">
+                <a href="project3.html" class="text-decoration-none">
+                  <h5 class="fw-bold">
+                    ABC Analysis for Inventory Management
+                  </h5></a
+                >
+
+                <h6 class="text-black-50 mb-2">
+                  Python, Pandas | Inventory Management
+                </h6>
+
+                <p class="">
+                  Performed an ABC Inventory Analysis using Python, Pandas, and
+                  Matplotlib to classify products by inventory value, identify
+                  high-impact items, and uncover inventory investment patterns,
+                  enabling better inventory prioritization, monitoring, and
+                  control through data-driven insights.
+                  <a class="blue" href="project3.html">details</a>
+                </p>
+              </div>
+            </div>
+            <!-- end of text-container -->
+          </div>
+          <!-- project 3 end -->
         </div>
         <!-- end of row -->
       </div>
@@ -480,233 +412,109 @@
     <!-- end of projects -->
 
     <!-- Works -->
-    <div class="basic-4">
+    <!-- Work Experience -->
+    <div id="work" class="work-section">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="text-container">
-              <div class="image-container">
-                <a href="project.html">
-                  <img
-                    class="img-fluid"
-                    src="images/work-1.jpg"
-                    alt="alternative"
-                  />
-                </a>
-              </div>
-              <!-- end of image-container -->
-              <p>
-                <strong>For:</strong> Zigoland,
-                <strong>Project:</strong> started a new website from ground up
-                for a new product
-                <a class="blue" href="project.html">details</a>
-              </p>
-            </div>
-            <!-- end of text-container -->
-          </div>
-          <!-- end of col -->
-          <div class="col-lg-4">
-            <div class="text-container">
-              <div class="image-container">
-                <a href="project.html">
-                  <img
-                    class="img-fluid"
-                    src="images/work-2.jpg"
-                    alt="alternative"
-                  />
-                </a>
-              </div>
-              <!-- end of image-container -->
-              <p>
-                <strong>For:</strong> Visodream,
-                <strong>Project:</strong> developed a new forum for the
-                Visodream community
-                <a class="blue" href="project.html">details</a>
-              </p>
-            </div>
-            <!-- end of text-container -->
-          </div>
-          <!-- end of col -->
-          <div class="col-lg-4">
-            <div class="text-container">
-              <div class="image-container">
-                <a href="project.html">
-                  <img
-                    class="img-fluid"
-                    src="images/work-3.jpg"
-                    alt="alternative"
-                  />
-                </a>
-              </div>
-              <!-- end of image-container -->
-              <p>
-                <strong>For:</strong> Primoday,
-                <strong>Project:</strong> complete redesign of their corporate
-                website and platform
-                <a class="blue" href="project.html">details</a>
-              </p>
-            </div>
-            <!-- end of text-container -->
-          </div>
-          <!-- end of col -->
+        <!-- Section Title -->
+        <div class="section-title text-center">
+          <h2>Work Experience</h2>
+          <p>
+            Professional journey in Planning & Process Excellence through data
+            driven analysis
+          </p>
         </div>
-        <!-- end of row -->
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="text-container">
-              <div class="image-container">
-                <a href="project.html">
-                  <img
-                    class="img-fluid"
-                    src="images/work-4.jpg"
-                    alt="alternative"
-                  />
-                </a>
+
+        <!-- Experience Row -->
+        <div class="row justify-content-center g-4">
+          <!-- Card 1 -->
+          <div class="col-lg-5 col-md-6">
+            <div class="experience-card">
+              <!-- Experience Item -->
+              <div class="experience-item">
+                <div class="experience-header">
+                  <div>
+                    <h5>Executive (Planning)</h5>
+                    <h6>Hams Group</h6>
+                  </div>
+
+                  <span class="experience-date"> Jun 2025 – Nov 2025 </span>
+                </div>
+
+                <ul>
+                  <li>
+                    Supported demand planning and MRP execution to ensure smooth
+                    production flow
+                  </li>
+                  <li>
+                    Increased in-house sourcing rate through improved supplier
+                    coordination
+                  </li>
+                  <li>
+                    Reduced material shortages by improving planning accuracy
+                  </li>
+                  <li>
+                    Analyzed production variances to improve schedule adherence
+                  </li>
+                </ul>
               </div>
-              <!-- end of image-container -->
-              <p>
-                <strong>For:</strong> Nextlite,
-                <strong>Project:</strong> created a custom video editing and
-                upload web app <a class="blue" href="project.html">details</a>
-              </p>
-            </div>
-            <!-- end of text-container -->
-          </div>
-          <!-- end of col -->
-          <div class="col-lg-4">
-            <div class="text-container">
-              <div class="image-container">
-                <a href="project.html">
-                  <img
-                    class="img-fluid"
-                    src="images/work-5.jpg"
-                    alt="alternative"
-                  />
-                </a>
+
+              <!-- Experience Item -->
+              <div class="experience-item last-item">
+                <div class="experience-header">
+                  <div>
+                    <h5>Officer (Planning)</h5>
+                    <h6>Noman Group</h6>
+                  </div>
+
+                  <span class="experience-date"> Sep 2024 – May 2025 </span>
+                </div>
+
+                <ul>
+                  <li>
+                    Built KPI dashboards to track production, lead time, and
+                    materials
+                  </li>
+                  <li>
+                    Increased production output through bottleneck analysis
+                  </li>
+                  <li>Reduced lead time through improved planning</li>
+                  <li>Coordinated across teams to align demand and supply</li>
+                </ul>
               </div>
-              <!-- end of image-container -->
-              <p>
-                <strong>For:</strong> Syncnow, <strong>Project:</strong> web
-                design for their corporate websites and landing pages
-                <a class="blue" href="project.html">details</a>
-              </p>
             </div>
-            <!-- end of text-container -->
           </div>
-          <!-- end of col -->
-          <div class="col-lg-4">
-            <div class="text-container">
-              <div class="image-container">
-                <a href="project.html">
-                  <img
-                    class="img-fluid"
-                    src="images/work-6.jpg"
-                    alt="alternative"
-                  />
-                </a>
+
+          <!-- Card 2 -->
+          <div class="col-lg-5 col-md-6">
+            <div class="experience-card">
+              <div class="experience-item last-item">
+                <div class="experience-header">
+                  <div>
+                    <h5>Assistant Officer (Process Excellence)</h5>
+                    <h6>AkijBashir Group</h6>
+                  </div>
+
+                  <span class="experience-date"> Aug 2023 – Aug 2024 </span>
+                </div>
+
+                <ul>
+                  <li>Reduced machine downtime using Lean methodologies</li>
+                  <li>
+                    Conducted root cause analysis using 5 Why and Fishbone
+                    methods
+                  </li>
+                  <li>
+                    Improved workflow efficiency through cycle time analysis
+                  </li>
+                  <li>Gained hands-on experience with ERP systems</li>
+                </ul>
               </div>
-              <!-- end of image-container -->
-              <p>
-                <strong>For:</strong> Shifter, <strong>Project:</strong> started
-                a new website from ground up for a new product
-                <a class="blue" href="project.html">details</a>
-              </p>
             </div>
-            <!-- end of text-container -->
           </div>
-          <!-- end of col -->
         </div>
-        <!-- end of row -->
       </div>
-      <!-- end of container -->
     </div>
-    <!-- end of basic-4 -->
     <!-- end of works -->
-
-    <!-- Testimonials -->
-    <div class="cards-1">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h2 class="h2-heading">
-              A few words from people that chose to work with me
-            </h2>
-          </div>
-          <!-- end of col -->
-        </div>
-        <!-- end of row -->
-        <div class="row">
-          <div class="col-lg-12">
-            <!-- Card -->
-            <div class="card">
-              <div class="card-body">
-                <p class="testimonial-text">
-                  “Mark is a skilled developer which will do everything possible
-                  to deliver the project on time and I really appreciate that”
-                </p>
-                <div class="details">
-                  <img src="images/testimonial-1.jpg" alt="alternative" />
-                  <div class="text">
-                    <div class="testimonial-author">Samantha Bloom</div>
-                    <div class="occupation">Team Leader - Syncnow</div>
-                  </div>
-                  <!-- end of text -->
-                </div>
-                <!-- end of testimonial-details -->
-              </div>
-            </div>
-            <!-- end of card -->
-
-            <!-- Card -->
-            <div class="card">
-              <div class="card-body">
-                <p class="testimonial-text">
-                  “Loved to work with Mark he's such an awesome developer with
-                  great attention to details. He also has a great eye for
-                  design”
-                </p>
-                <div class="details">
-                  <img src="images/testimonial-2.jpg" alt="alternative" />
-                  <div class="text">
-                    <div class="testimonial-author">John Rowling</div>
-                    <div class="occupation">Marketing Manager - Nexlite</div>
-                  </div>
-                  <!-- end of text -->
-                </div>
-                <!-- end of testimonial-details -->
-              </div>
-            </div>
-            <!-- end of card -->
-
-            <!-- Card -->
-            <div class="card">
-              <div class="card-body">
-                <p class="testimonial-text">
-                  “So glad we started working with Mark. We've used many times
-                  his design and development skills for our inhouse online
-                  projects”
-                </p>
-                <div class="details">
-                  <img src="images/testimonial-3.jpg" alt="alternative" />
-                  <div class="text">
-                    <div class="testimonial-author">Lana Smith</div>
-                    <div class="occupation">General Manager - Shifter</div>
-                  </div>
-                  <!-- end of text -->
-                </div>
-                <!-- end of testimonial-details -->
-              </div>
-            </div>
-            <!-- end of card -->
-          </div>
-          <!-- end of col -->
-        </div>
-        <!-- end of row -->
-      </div>
-      <!-- end of container -->
-    </div>
-    <!-- end of cards-1 -->
-    <!-- end of testimonials -->
 
     <!-- Section Divider -->
     <div class="container">
@@ -721,227 +529,126 @@
     <!-- end of container -->
     <!-- end of section divider -->
 
-    <!-- Questions -->
-    <div class="accordion-1">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h2 class="h2-heading">Frequent questions</h2>
-          </div>
-          <!-- end of col -->
-        </div>
-        <!-- end of row -->
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="accordion" id="accordionExample">
-              <div class="card">
-                <div class="card-header" id="headingOne">
-                  <button
-                    class="btn btn-link btn-block text-left"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                  >
-                    How can I contact you and quickly get a quote for my online
-                    project?
-                  </button>
-                </div>
-                <div
-                  id="collapseOne"
-                  class="collapse show"
-                  aria-labelledby="headingOne"
-                  data-parent="#accordionExample"
-                >
-                  <div class="card-body">
-                    The best way to reach me is through the contact form of by
-                    messaging me on my social media accounts. For a fast quote
-                    make sure your provide many project details
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingTwo">
-                  <button
-                    class="btn btn-link btn-block text-left collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    Do you create designs from the ground up or you are using
-                    themes?
-                  </button>
-                </div>
-                <div
-                  id="collapseTwo"
-                  class="collapse"
-                  aria-labelledby="headingTwo"
-                  data-parent="#accordionExample"
-                >
-                  <div class="card-body">
-                    The best way to reach me is through the contact form of by
-                    messaging me on my social media accounts. For a fast quote
-                    make sure your provide many project details
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingThree">
-                  <button
-                    class="btn btn-link btn-block text-left collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    Will I receive any included maintenance or warranty after
-                    project delivery?
-                  </button>
-                </div>
-                <div
-                  id="collapseThree"
-                  class="collapse"
-                  aria-labelledby="headingThree"
-                  data-parent="#accordionExample"
-                >
-                  <div class="card-body">
-                    The best way to reach me is through the contact form of by
-                    messaging me on my social media accounts. For a fast quote
-                    make sure your provide many project details
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingFour">
-                  <button
-                    class="btn btn-link btn-block text-left collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseFour"
-                    aria-expanded="false"
-                    aria-controls="collapseFour"
-                  >
-                    If something goes wrong with the project can I have my money
-                    back?
-                  </button>
-                </div>
-                <div
-                  id="collapseFour"
-                  class="collapse"
-                  aria-labelledby="headingFour"
-                  data-parent="#accordionExample"
-                >
-                  <div class="card-body">
-                    The best way to reach me is through the contact form of by
-                    messaging me on my social media accounts. For a fast quote
-                    make sure your provide many project details
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingFive">
-                  <button
-                    class="btn btn-link btn-block text-left collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseFive"
-                    aria-expanded="false"
-                    aria-controls="collapseFive"
-                  >
-                    What's your preferred method of payment and do you need an
-                    advance?
-                  </button>
-                </div>
-                <div
-                  id="collapseFive"
-                  class="collapse"
-                  aria-labelledby="headingFive"
-                  data-parent="#accordionExample"
-                >
-                  <div class="card-body">
-                    The best way to reach me is through the contact form of by
-                    messaging me on my social media accounts. For a fast quote
-                    make sure your provide many project details
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- end of accordion -->
-          </div>
-          <!-- end of col -->
-        </div>
-        <!-- end of row -->
-      </div>
-      <!-- end of container -->
-    </div>
-    <!-- end of accordion-1 -->
-    <!-- end of questions -->
-
     <!-- Contact -->
-    <div id="contact" class="form-1 bg-gray">
+
+    <!-- Contact Section -->
+    <div id="contact" class="contact-section">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h2>Contact details</h2>
-            <p class="p-heading">
-              For any type of online project please don't hesitate to get in
-              touch with me. The fastest way is to send me your message using
-              the following email
-              <a class="blue no-line" href="#your-link">contact@domain.com</a>
-            </p>
+        <!-- Section Header -->
+        <div class="section-header text-center">
+          <h2>Let’s Connect</h2>
+
+          <p>
+            I’m interested in opportunities related to Data Analytics, Supply
+            Chain Management, Process Improvement, and Business Operations.
+          </p>
+
+          <!-- Email -->
+          <div class="contact-email">
+            <a href="mailto:rony.ipe17@gmail.com"> rony.ipe17@gmail.com </a>
           </div>
-          <!-- end of col -->
-        </div>
-        <!-- end of row -->
-        <div class="row">
-          <div class="col-lg-12">
-            <!-- Contact Form -->
-            <form id="contactForm">
-              <div class="form-group">
-                <input
-                  type="text"
-                  class="form-control-input"
-                  id="cname"
-                  required
-                />
-                <label class="label-control" for="cname">Name</label>
-              </div>
-              <div class="form-group">
-                <input
-                  type="email"
-                  class="form-control-input"
-                  id="cemail"
-                  required
-                />
-                <label class="label-control" for="cemail">Email</label>
-              </div>
-              <div class="form-group">
-                <textarea
-                  class="form-control-textarea"
-                  id="cmessage"
-                  required
-                ></textarea>
-                <label class="label-control" for="cmessage"
-                  >Project details</label
-                >
-              </div>
-              <div class="form-group">
-                <button type="submit" class="form-control-submit-button">
-                  Submit
-                </button>
-              </div>
-            </form>
-            <!-- end of contact form -->
+
+          <!-- Professional Links -->
+          <div class="professional-links">
+            <a
+              href="https://linkedin.com/in/rony-ipe"
+              target="_blank"
+              class="profile-link"
+            >
+              <i class="fab fa-linkedin-in"></i>
+              LinkedIn
+            </a>
+
+            <!-- <a
+              href="https://github.com/yourprofile"
+              target="_blank"
+              class="profile-link"
+            >
+              <i class="fab fa-github"></i>
+              GitHub
+            </a> -->
+            <a
+              href="https://wa.me/8801641349168"
+              target="_blank"
+              class="profile-link"
+            >
+              <i class="fab fa-whatsapp"></i>
+              WhatsApp
+            </a>
+
+            <a
+              href="assets/files/resume.pdf"
+              target="_blank"
+              class="profile-link"
+            >
+              <i class="fas fa-file-alt"></i>
+              Resume
+            </a>
           </div>
-          <!-- end of col -->
         </div>
-        <!-- end of row -->
+
+        <!-- Contact Form -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="contact-card">
+              <form
+                id="contactForm"
+                action="https://formspree.io/f/xredwjbj"
+                method="POST"
+              >
+                <div class="row">
+                  <!-- Name -->
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label>Name</label>
+
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        placeholder="Enter your name"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Email -->
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label>Email</label>
+
+                      <input
+                        type="email"
+                        name="email"
+                        class="form-control"
+                        placeholder="Enter your email"
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Message -->
+                <div class="form-group">
+                  <label>Message</label>
+
+                  <textarea
+                    name="message"
+                    class="form-control"
+                    rows="6"
+                    placeholder="Write your message..."
+                    required
+                  ></textarea>
+                </div>
+
+                <!-- Button -->
+                <button type="submit" class="btn-contact">Send Message</button>
+                <div id="form-status"></div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- end of container -->
     </div>
     <!-- end of form-1 -->
     <!-- end of contact -->
@@ -953,33 +660,33 @@
           <div class="col-lg-12">
             <div class="social-container">
               <span class="fa-stack">
-                <a href="#your-link">
+                <a href="https://wa.me/8801641349168">
                   <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x"></i>
+                  <i class="fab fa-whatsapp fa-stack-1x"></i>
                 </a>
               </span>
               <span class="fa-stack">
-                <a href="#your-link">
+                <a href="https://www.linkedin.com/in/rony-ipe">
                   <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x"></i>
+                  <i class="fab fa-linkedin fa-stack-1x"></i>
                 </a>
               </span>
-              <span class="fa-stack">
+              <!-- <span class="fa-stack">
                 <a href="#your-link">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-pinterest-p fa-stack-1x"></i>
                 </a>
-              </span>
+              </span> -->
               <span class="fa-stack">
-                <a href="#your-link">
+                <a href="tel:+8801641349168">
                   <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-instagram fa-stack-1x"></i>
+                  <i class="fas fa-phone fa-stack-1x"></i>
                 </a>
               </span>
               <span class="fa-stack">
-                <a href="#your-link">
+                <a href="mailto:rony.ipe17@gmail.com">
                   <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-youtube fa-stack-1x"></i>
+                  <i class="fas fa-envelope fa-stack-1x"></i>
                 </a>
               </span>
             </div>
@@ -1000,7 +707,8 @@
         <div class="row">
           <div class="col-lg-12">
             <p class="p-small">
-              Copyright © <a class="no-line" href="#your-link">Your name</a>
+              Copyright ©
+              <a class="no-line" href="index.html">Moshiur Rahman Rony</a>
             </p>
           </div>
           <!-- end of col -->
@@ -1013,8 +721,8 @@
         <div class="row">
           <div class="col-lg-12">
             <p class="p-small">
-              Distributed By
-              <a class="no-line" href="https://themewagon.com/">Themewagon</a>
+              Thanks to the design of webpage by
+              <a class="no-line" href="">Themewagon</a>
             </p>
           </div>
           <!-- end of col -->
@@ -1027,6 +735,7 @@
     <!-- end of copyright -->
 
     <!-- Scripts -->
+
     <script src="js/jquery.min.js"></script>
     <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/bootstrap.min.js"></script>
